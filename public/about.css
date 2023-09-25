@@ -1,0 +1,95 @@
+#header {
+    background-color: #12486B;
+    border: solid #12486B;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: #12486B;
+    font-family: 'Mooli', sans-serif;
+}
+
+#subheader {
+    background-color: #419197;
+    border: solid #419197;
+    text-align: center;
+    color: white;
+    background-color: #419197;
+    font-family: 'Mulish', sans-serif;
+    padding-bottom: 50px;
+
+}
+
+#subheader > .home {
+    background-color: #12486B;
+    border: solid #12486B;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+
+.header {
+    background-color: rgb(6, 69, 69);
+    border: solid rgb(6, 69, 69);
+    margin-top: 10px;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.content-box {
+    margin-top: 10px;
+    border: solid aqua;
+    position: relative;
+}
+
+.content-title {
+    background-color: aqua;
+    border: solid aqua;
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+}
+
+.img-box > img {
+    width:300px;
+    height: 300px;
+    padding: 40px;
+}
+
+.img-box > #img-education {
+    margin-right: 0px;
+    margin-top: 0;
+
+}
+
+.img-box > #img-education-other {
+    margin-right: 0px;
+    margin-top: 0;
+    width:300px;
+    height: 400px;
+
+}
+
+.desc-box {
+    position: absolute;
+    padding: 40px;
+    text-align: justify;
+    top: 0px;
+    left: 350px;
+    margin-top: 40px;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: solid;
+}
