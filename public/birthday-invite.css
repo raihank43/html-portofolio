@@ -1,0 +1,74 @@
+
+
+.outer-card {
+    z-index: 2;
+    width: 1100px;
+    height: 600px;
+    background-color: #FF6D60;
+    color: #F3E99F;
+    position: relative;
+    left: 225px;
+    overflow: hidden;
+}
+
+.text-card {
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+
+}
+
+.text-card > .birthday-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-card h2 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.text-card p {
+    font-weight: 900;
+}
+.img-card img{
+    position: absolute;
+    width: 1000px;
+    height: 550px;
+    left: 400px;
+    margin: 0px;
+    display: block;
+}
+
+.birthday-box img {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    width: 1101px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.contact-card {
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 260px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contact-button {
+    border: solid;
+    background-color: #F3E99F;
+    margin: 0px;
+}
+
+.contact-button a {
+    color: #FF6D60;
+    font-family: 'Lilita One', cursive;
+}
