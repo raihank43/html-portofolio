@@ -1,17 +1,38 @@
 * {
     text-align: center;
 }
-html {
-    background-color: antiquewhite;
+
+
+span {
+    font-family: "Poppins", sans-serif;
+    color:aqua;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    list-style: none;
+    font-weight: 900;
 }
 #header {
+    display: flex;
     background-color: #12486B;
-    border: solid #12486B;
     margin: 0px;
-    text-align: center;
+    padding: 0px;
+    justify-content: space-around;
     color: white;
-    background-color: #12486B;
     font-family: 'Mooli', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .content {
