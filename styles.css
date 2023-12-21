@@ -1,7 +1,3 @@
-* {
-    text-align: center;
-}
-
 
 span {
     font-family: "Poppins", sans-serif;
@@ -35,6 +31,69 @@ li {
     align-items: center;
 }
 
+.intro {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+
+
+}
+.profile-photo {
+    background-color:#12486B;
+
+}
+
+.profile-photo > img {
+
+    margin: 0;
+    height: 700px;
+}
+
+.intro-text {
+    font-family: 'Mulish', sans-serif;
+    padding: 50px;
+    background-color: #12486B;
+}
+
+.intro-text > * {
+    color: white;
+    text-align: left;
+}
+
+.im {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.raden {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+
+}
+
+.imwebdev {
+    
+    color: aqua;
+}
+
+.about-me-button {
+    margin-top: 20px;
+    background-color:#12486B;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid #78D6C6;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
 .content {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -57,11 +116,10 @@ li {
 }
 
 #subheader {
-    background-color: #419197;
-    border: solid #419197;
+    background-color:#12486B;
+    border: solid #12486B;
     text-align: center;
     color: white;
-    background-color: #419197;
     font-family: 'Mulish', sans-serif;
 
 }
