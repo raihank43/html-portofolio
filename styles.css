@@ -1,3 +1,10 @@
+.container {
+    background-color: #12486B;
+}
+
+.px-3 {
+    background-color: #12486B;
+}
 
 span {
     font-family: "Poppins", sans-serif;
@@ -6,6 +13,19 @@ span {
 }
 
 h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.raihankusumalogo{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.nav-link {
     font-family: "Poppins", sans-serif;
 }
 
