@@ -1,9 +1,9 @@
-.container {
-    background-color: #12486B;
-}
+
 
 .px-3 {
-    background-color: #12486B;
+    background: linear-gradient(90deg, #12486B, #007BFF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
 }
 
 span {
@@ -52,27 +52,33 @@ li {
 }
 
 .intro {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(90deg, #12486B, #007BFF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1fr;
+    
 
 
 }
 .profile-photo {
-    background-color:#12486B;
+    border-radius: 50%;
+    overflow: hidden;
 
 }
 
 .profile-photo > img {
-
-    margin: 0;
-    height: 700px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .intro-text {
     font-family: 'Mulish', sans-serif;
     padding: 50px;
-    background-color: #12486B;
 }
 
 .intro-text > * {
@@ -99,12 +105,12 @@ li {
 
 .about-me-button {
     margin-top: 20px;
-    background-color:#12486B;
     border-radius: 10px;
+    border: white solid;
     padding: 10px;
-    border: solid #78D6C6;
     font-family: 'Mulish', sans-serif;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 
@@ -156,3 +162,28 @@ li {
 }
 
 
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  @media (max-width: 800px) {
+    .intro {
+      grid-template-columns: 1fr;
+    }
+    .profile-photo {
+        order: 0;
+    }
+    .intro-text {
+        order: 1;
+    }
+  }
